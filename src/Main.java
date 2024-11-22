@@ -33,11 +33,11 @@ public class Main {
         Database.producers.add(producer2);
         Database.producers.add(producer3);
 
-        Movie movie1=new Movie("Movie One Name", Genre.DETECTIVE,  LocalDate.of(2020,10,10),producer1,new LinkedList<Actor>(List.of(actor1,actor2,actor3,actor4)));
-        Movie movie2=new Movie("Movie Two Name", Genre.ROMANCE,    LocalDate.of(2020,10,10),producer2,new LinkedList<Actor>(List.of(actor5,actor6,actor3,actor4)));
-        Movie movie3=new Movie("Movie Three Name", Genre.ROMANCE,  LocalDate.of(2020,10,10),producer2,new LinkedList<Actor>(List.of(actor1,actor3,actor5,actor4)));
-        Movie movie4=new Movie("Movie Four Name", Genre.DRAMA,     LocalDate.of(2020,10,10),producer3,new LinkedList<Actor>(List.of(actor1,actor2,actor6,actor6)));
-        Movie movie5=new Movie("Movie Five Name", Genre.DETECTIVE, LocalDate.of(2020,10,10),producer3,new LinkedList<Actor>(List.of(actor6,actor5,actor3,actor4)));
+        Movie movie1=new Movie("Movie 111 Name", Genre.DETECTIVE,  LocalDate.of(2015,5,15),producer1,new LinkedList<Actor>(List.of(actor1,actor2,actor3,actor4)));
+        Movie movie2=new Movie("Movie 222 Name", Genre.ROMANCE,    LocalDate.of(2014,4,14),producer2,new LinkedList<Actor>(List.of(actor5,actor6,actor3,actor4)));
+        Movie movie3=new Movie("Movie 333 Name", Genre.ROMANCE,  LocalDate.of(2013,3,13),producer2,new LinkedList<Actor>(List.of(actor1,actor3,actor5,actor4)));
+        Movie movie4=new Movie("Movie 444 Name", Genre.DRAMA,     LocalDate.of(2012,2,12),producer3,new LinkedList<Actor>(List.of(actor1,actor2,actor6,actor6)));
+        Movie movie5=new Movie("Movie 555 Name", Genre.DETECTIVE, LocalDate.of(2011,1,11),producer3,new LinkedList<Actor>(List.of(actor6,actor5,actor3,actor4)));
         Database.movies.add(movie1);
         Database.movies.add(movie2);
         Database.movies.add(movie3);

@@ -77,7 +77,7 @@ public class Start {
                     }
                 }
                 case 5 -> {
-                    System.out.println("Give producers full name");
+                    System.out.println("Give producers full name ");
                     String producerNameInput = scanner.nextLine();
                     if (movieFS.findMoviesByProducer(producerNameInput).isEmpty()) {
                         System.out.println("We dont have this producers movies.\nProducers we have:");
